@@ -1,69 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Affordable and professional web design">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
-    <title>Acme Web Deisgn | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="img/favicon.png">
-  </head>
-  <body>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>የቴክኖሎጂ ጥገና ማዕከል</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: #0056b3; color: #ffffff; padding: 20px 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header h1 { font-size: 24px; margin-bottom: 5px; }
+        header p { font-size: 14px; opacity: 0.9; }
+        .container { padding: 20px; max-width: 800px; margin: 0 auto; }
+        .hero { background: #ffffff; padding: 20px; border-radius: 8px; text-align: center; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .hero h2 { color: #0056b3; margin-bottom: 10px; }
+        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .card { background: #ffffff; padding: 15px; border-radius: 8px; border-left: 5px solid #0056b3; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .card h3 { color: #0056b3; margin-bottom: 8px; }
+        .contact-box { background: #28a745; color: white; padding: 20px; border-radius: 8px; text-align: center; }
+        .contact-box a { color: white; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin-top: 10px; background: #218838; padding: 10px 20px; border-radius: 5px; }
+        footer { text-align: center; padding: 15px; font-size: 12px; color: #666; margin-top: 20px; }
+    </style>
+</head>
+<body>
     <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Acme</span> Web Design</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-          </ul>
-        </nav>
-      </div>
+        <h1>የቴክኖሎጂ ጥገና ማዕከል</h1>
+        <p>ፈጣን፣ አስተማማኝ እና ዘመናዊ የጥገና አገልግሎት</p>
     </header>
-
-    <section id="showcase">
-      <div class="container">
-        <h1>Affordable Professional Web Design</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
-      </div>
-    </section>
-
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email..." required>
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/logo_html.png">
-          <h3>HTML5 Markup</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+    <div class="container">
+        <section class="hero">
+            <h2>እንኳን በደህና መጡ!</h2>
+            <p>ስልክ፣ ላፕቶፕ ወይም ሌላ የቴክኖሎጂ እቃዎችዎ ተበላሽተዋል? እኛ ጋር በብቃትና በፍጥነት ይዘጋጃሉ።</p>
+        </section>
+        <h2 style="margin-bottom: 15px; color: #333;">የምንሰጣቸው አገልግሎቶች</h2>
+        <div class="services">
+            <div class="card">
+                <h3>📱 የስልክ ጥገና</h3>
+                <p>የስክሪን ቅይጣ፣ የባትሪ ለውጥ፣ የቻርጅ ቦታ ማስተካከል እና የሶፍትዌር ፍላሽ ማድረግ።</p>
+            </div>
+            <div class="card">
+                <h3>💻 የኮምፒውተር ጥገና</h3>
+                <p>የላፕቶፕ እና ዴስክቶፕ ሃርድዌር ጥገና፣ ዊንዶውስ መጫን እና የቫይረስ ጽዳት።</p>
+            </div>
+            <div class="card">
+                <h3>🛠️ የሶፍትዌር መፍትሄዎች</h3>
+                <p>የጠፉ መረጃዎችን መመለስ (Data Recovery)፣ አካውንት እና ፓስወርድ መክፈት።</p>
+            </div>
         </div>
-        <div class="box">
-          <img src="./img/logo_css.png">
-          <h3>CSS3 Styling</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        <div class="contact-box">
+            <h2>አሁኑኑ ይደውሉልን!</h2>
+            <p>ለማንኛውም ጥያቄ ወይም የጥገና ትእዛዝ ይደውሉልን፦</p>
+            <a href="tel:+251900000000">📞 0900000000</a>
         </div>
-        <div class="box">
-          <img src="./img/logo_brush.png">
-          <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-      </div>
-    </section>
-
+    </div>
     <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2019</p>
+        <p>&copy; 2026 የቴክኖሎጂ ጥገና ማዕከል - መብቱ በህግ የተጠበቀ ነው</p>
     </footer>
-  </body>
+</body>
 </html>
